@@ -1,4 +1,4 @@
-# Universal Telegram Bot
+# Tentacles Telegram Bot
 
 Многофункциональный Telegram-бот на Python (aiogram 3) с тремя режимами работы.
 
@@ -49,38 +49,3 @@
 - **aiohttp / httpx** — асинхронные HTTP-запросы
 - **beautifulsoup4** — парсинг ezgif.com
 - **supervisor** — управление процессом бота
-
-## Быстрый старт
-
-```bash
-# 1. Установить зависимости
-pip install -r requirements.txt
-
-# 2. Установить ffmpeg
-apt install ffmpeg
-
-# 3. Настроить .env
-echo 'TELEGRAM_BOT_TOKEN=ваш_токен' > .env
-
-# 4. Запустить
-python bot.py
-```
-
-## Команды
-
-| Команда | Описание |
-|---|---|
-| `/start` | Главное меню |
-| `/change [1\|2\|3]` | Сменить режим |
-| `/help` | Справка по текущему режиму |
-| `/cancel` | Отмена текущего действия |
-| `/chat` | AI-чат |
-| `/image` | Генерация изображений |
-| `/gen` | Генерация видео (текст) |
-| `/genref` | Генерация видео (фото + текст) |
-| `/tts` | Озвучка текста |
-| `/key` | Управление API-ключами |
-| `/merge` | Склейка видео |
-| `/download` | Скачать видео по ссылке |
-| `/compress` | Сжать видео |
-| `/settings` | Настройки AI |
